@@ -1,0 +1,125 @@
+/* Universal Styles */
+html {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    background-color: #3F7494;
+}
+
+/* Image Styles */
+
+/* Header Styles */
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    /*position: fixed;
+    top: 0;
+    width: 100%;
+    right: 0;
+    background-color: #3f948a;*/
+}
+
+/*h1 {
+    color: white;
+}*/
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+}
+/* Body Styles */
+body {
+    text-align: center;
+}
+
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 10px;
+}
+
+/*main {
+    margin-top: 130px;
+}*/
+
+.mission {
+    display: flex;
+    background-image: url(https://images.unsplash.com/photo-1571996954145-ed4bf300d477?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1025&q=80);
+    height: 300px;
+    padding-top: 35px;
+}
+
+.mission .content {
+    margin: auto;
+    width: 100%;
+    background-color: #945F3F;
+}
+
+.collection {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+}
+
+.item span {
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.team {
+    background-image: url(https://images.unsplash.com/photo-1612176894219-8493bf9b9b1c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.teammate {
+    color:white;
+    padding: 10px;
+    flex-basis: 280px;
+    align-content: center;
+}
+
+.teammate img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: auto;
+}
+
+.yuna img {
+    height: 300px;
+    width: auto;
+}
+/* Footer Styles */
+footer {
+    padding-top: 20px;
+    text-align: center;
+}
